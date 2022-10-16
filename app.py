@@ -10,7 +10,7 @@ from db import create_connect
 from middlewares import session
 from routers import router
 
-app = FastAPI(title = 'Tasks', version = '1.0.0')
+app = FastAPI(title = 'Tasks', version = '1.1.0')
 
 
 @app.get("/", description = "Server time", response_model = int)
